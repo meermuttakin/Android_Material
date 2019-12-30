@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".registrationForm">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTRATION FORM"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        />
+
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="NATIONAL ID"
+        android:id="@+id/nid"
+        android:drawableLeft="@drawable/ic_perm_identity_black_24dp"
+        android:drawablePadding="20dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="NAME"
+        android:id="@+id/nameId"
+        android:drawableLeft="@drawable/ic_perm_identity_black_24dp"
+        android:drawablePadding="20dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="GENDER"
+        android:id="@+id/genderId"
+        android:drawableLeft="@drawable/ic_perm_identity_black_24dp"
+        android:drawablePadding="20dp"
+        android:layout_marginBottom="10dp"
+        />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="EMAIL"
+        android:id="@+id/emailId"
+        android:drawableLeft="@drawable/ic_perm_identity_black_24dp"
+        android:drawablePadding="20dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="PASSWORD"
+        android:id="@+id/pid"
+        android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+        android:drawablePadding="20dp"
+        android:inputType="textPassword"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTRATION"
+        android:id="@+id/regId"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:drawablePadding="10dp"
+        android:drawableRight="@drawable/ic_send_black_24dp"
+        android:background="@drawable/buttonstyle1"
+        />
+
+</LinearLayout>

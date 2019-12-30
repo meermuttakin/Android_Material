@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="40dp"
+        android:background="@color/colorPrimaryDark"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WELCOME TO PAYMENT"
+            android:textSize="25sp"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/script1"
+            android:textSize="12sp"
+            android:textColor="#fff"
+            />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp"
+    >
+<Button
+
+    android:layout_marginRight="20dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Learn More"
+    android:textColor="#fff"
+    android:textStyle="bold"
+    android:background="@drawable/buttonstyle1"
+    />
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registration"
+        android:id="@+id/reg1Id"
+        android:background="@drawable/buttonstyle2"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="USERNAME"
+            android:id="@+id/email1"
+            android:drawableLeft="@drawable/ic_perm_identity_black_24dp"
+            android:drawablePadding="20dp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <EditText
+
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="PASSWORD"
+            android:id="@+id/password1"
+            android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+            android:drawablePadding="20dp"
+            android:inputType="textPassword"
+            android:layout_marginBottom="10dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:id="@+id/signId"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/ic_send_black_24dp"
+            android:background="@drawable/buttonstyle1"
+            />
+
+
+    </LinearLayout>
+    
+</LinearLayout>
